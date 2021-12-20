@@ -1,0 +1,168 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(200, 200, 200);
+}
+
+body.hauptseite {
+  background-image: url("../neu/Bilder_offen/Bali_20021217_035_Kopie.jpg") ;
+}
+
+header {
+  display: block;
+  height: 236px;
+  float: left;
+}
+
+nav {
+  background-color: #cece63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+}
+
+footer {
+  background-color: #cece63;
+  display: block;
+  height: 50px;
+  padding-left: 0px;
+  float: left;
+}
+
+
+
+#footer-links{
+  float: left;
+  padding-left: 0px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+#footer-rechts{
+  float: right;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+nav.div {
+  width: 90%;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 800px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px solid rgb(150, 150, 150);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.breite-1,
+.breite-2,
+.breite-3,
+.breite-4,
+.breite-5,
+.breite-6,
+.breite-7,
+.breite-8,
+.breite-9,
+.breite-10,
+.breite-11,
+.breite-12 {
+    float: left;
+  /*  border: 0;*/
+}
+.breite-1 {
+    width: 8.33333333%;
+}
+.breite-2 {
+    width: 16.66666666%;
+}
+.breite-3 {
+    width: 25%;
+}
+.breite-4 {
+    width: 33.33333333%;
+}
+.breite-5 {
+    width: 41.66666666%;
+}
+.breite-6 {
+    width: 50%;
+}
+.breite-7 {
+    width: 58.33333333%;
+}
+.breite-8 {
+    width: 66.6666666%;
+}
+.breite-9 {
+    width: 75%;
+}
+.breite-10 {
+    width: 83.3333333%;
+}
+.breite-11 {
+    width: 91.6666666%;
+}
+.breite-12 {
+    width: 100%;
+}
+
+.button {
+  border: none;
+  color: #cece63;
+/*  padding: 16px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #cece63;
+  color: black;
+  border: 2px solid #cece63;
+}
+
+.button1:hover {
+  background-color: black;
+  color: #cece63;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+p {
+    line-height: 140%;
+}
