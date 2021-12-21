@@ -5,10 +5,8 @@ body {
 }
 
 body.hauptseite {
-  background-image: url("bilder_offen/bali_20021217_035_kopie.jpg") ;
+  background-image: url("../neu/bilder_offen/bali_20021217_035_kopie.jpg") ;
 }
-
-
 
 header {
   display: block;
@@ -63,7 +61,8 @@ h1 {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 800px;
     margin-top: 10px;
     margin-left: auto;
     margin-bottom: 50px;
@@ -159,6 +158,10 @@ h1 {
 .button2:hover {
   background-color: #008CBA;
   color: white;
+}
+
+#datenschutzerklaerung {
+  text-align: left;
 }
 
 a.button {
