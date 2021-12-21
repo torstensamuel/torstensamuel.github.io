@@ -8,6 +8,8 @@ body.hauptseite {
   background-image: url("bilder_offen/bali_20021217_035_kopie.jpg") ;
 }
 
+
+
 header {
   display: block;
   height: 236px;
@@ -61,7 +63,7 @@ h1 {
 }
 
 .container {
-    width: 800px;
+    /* width: 800px; */
     margin-top: 10px;
     margin-left: auto;
     margin-bottom: 50px;
